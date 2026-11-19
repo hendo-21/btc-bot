@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.env.*
+data/
+.DS_Store
+.claude/settings.local.json
+
+# Local-only Claude context and personal notes
+CLAUDE.md
+docs/session-log.md
+docs/decisions.md

@@ -1,0 +1,25 @@
+[project]
+name = "btcbot"
+version = "0.1.0"
+description = "Long-only BTC trading research: honest backtests, holdout validation, automated paper trading."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "backtesting>=0.6.6",
+    "numpy>=2.5.5",
+    "pandas>=3.1.1",
+    "requests>=2.34.2",
+    "tabulate>=0.10.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
