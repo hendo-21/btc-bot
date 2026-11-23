@@ -9,7 +9,7 @@ Arrows from left to right show data moving. `^` means "started by".
 
 ```
                             config.py                   strategies.py
-                            settings                    6 long-only rules
+                            settings                    8 long-only rules
                                 |                             |
                                 +---------------+-------------+
                                                 |
