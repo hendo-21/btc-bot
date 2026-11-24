@@ -16,7 +16,7 @@ DATA_FILE = DATA_DIR / "btc_usd_daily.csv"
 
 PRODUCT = "BTC-USD"          # Coinbase spot pair
 DATA_START = "2016-01-01"    # 2016 is warmup only; trading starts 2017
-STARTING_CASH = 150.0        # matches the real Coinbase balance (USD)
+STARTING_CASH = 150.0        # matches the planned live Alpaca balance (USD)
 
 # Bars of history loaded before each slice so slow indicators (200-day SMA)
 # are fully formed on the slice's first trading day.

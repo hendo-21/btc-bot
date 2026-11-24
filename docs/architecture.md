@@ -36,7 +36,7 @@ Other notes:
 **Planned:**
 
 ```
- strategies.py ---> live runner ---> Alpaca / Coinbase  (paper first, then $150)
+ strategies.py ---> live runner ---> Alpaca  (paper first, then $150)
                          ^
                          |
                  daily scheduled job
